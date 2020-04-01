@@ -23,6 +23,39 @@ body {
 .container {
 
 }
+.nav-wrap {
+    background-color: rgba(85, 79, 79, .6);
+    position: sticky;
+    top: 0;
+    
+   
+.logo {
+    margin: 15px;
+    @include hover {
+        transform: rotateZ(360deg);
+        transition-duration: .9s;
+        cursor: pointer;
+    }
+}
+.nav {
+    margin: 15px;
+  
+    .nav-item{
+        .nav-link {
+            text-transform: uppercase;
+            font-size: 2em;
+            color: rgb(31, 16, 236);
+            @include hover {
+                transform: scale(1, 1.1);
+                transition-duration: .9s;
+                color: rgb(137, 189, 173);
+                cursor: pointer;
+            }
+           
+        }
+    }
+}
+}
 
 .div__btn {	
 	text-transform: uppercase;	
@@ -50,6 +83,7 @@ body {
 }
 
 .header-wrapper {
+    
     background-color: rgb(228, 216, 216);
     width: 100%;
     min-height: 100vh;
@@ -57,7 +91,7 @@ body {
     background-repeat: no-repeat;
 	background-position: center center;
     background-size: cover;
-    padding-top: 3rem;
+    
     .text {
         margin: 160px 25px 60px;
         h1 {
@@ -73,34 +107,13 @@ body {
 
     }
     
-    .logo {
-        @include hover {
-            transform: rotateZ(360deg);
-            transition-duration: .9s;
-            cursor: pointer;
-        }
-    }
-    .nav {
-      
-        .nav-item{
-            .nav-link {
-                text-transform: uppercase;
-                font-size: 2em;
-                color: rgb(236, 232, 16);
-                @include hover {
-                    transform: scale(1, 1.2);
-                    transition-duration: .9s;
-                    color: red;
-                    cursor: pointer;
-                }
-               
-            }
-        }
-    }
+
     
 }
 
 .sliders {
+    clear: both;
+
 	
 	img {
 		width: 800px;
