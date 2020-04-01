@@ -1,0 +1,152 @@
+@import 'bootstrap/bootstrap';
+@import 'variables';
+@import 'mixins';
+@import 'slick/slick.scss';
+@import 'slick/slick-theme.scss';
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {    
+    font-size: 16px;  
+
+}
+
+body {
+    min-height: 100%;   
+    
+}
+
+
+.container {
+
+}
+
+.div__btn {	
+	text-transform: uppercase;	
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+	
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        	width: 250px;
+	height: 80px;
+        font-size: 1.5rem;
+        
+        
+        @include hover {
+			color: #9f9acf;
+			border-color: #fff;
+            background-color: rgba(235, 235, 235, 0.808);
+		}
+
+    }
+}
+
+.header-wrapper {
+    background-color: rgb(228, 216, 216);
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./../img/chir.jpg);
+    background-repeat: no-repeat;
+	background-position: center center;
+    background-size: cover;
+    padding-top: 3rem;
+    .text {
+        margin: 160px 25px 60px;
+        h1 {
+            font-size: 69px;
+            font-weight: bold;
+            color: rgb(240, 236, 12);
+            margin-bottom: 30px;
+        }
+        span {
+            color: rgb(240, 236, 12);
+            font-size: 2rem;
+        }
+
+    }
+    
+    .logo {
+        @include hover {
+            transform: rotateZ(360deg);
+            transition-duration: .9s;
+            cursor: pointer;
+        }
+    }
+    .nav {
+      
+        .nav-item{
+            .nav-link {
+                text-transform: uppercase;
+                font-size: 2em;
+                color: rgb(236, 232, 16);
+                @include hover {
+                    transform: scale(1, 1.2);
+                    transition-duration: .9s;
+                    color: red;
+                    cursor: pointer;
+                }
+               
+            }
+        }
+    }
+    
+}
+
+.sliders {
+	
+	img {
+		width: 800px;
+		max-height: 545px;
+		overflow: hidden;
+		object-fit: fill;
+	}
+}
+.slider__dots {
+	position: absolute;
+	bottom: -45px;
+	display: block;
+	width: 100%;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	z-index: 5;
+	li {
+		position: relative;
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		margin: 0 5px;
+		padding: 0;
+		cursor: pointer;
+		button:hover:before, button:focus:before {
+			opacity: 1;
+		}
+		button:before {
+			font-family: 'slick';
+			font-size: 6px;
+			line-height: 20px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 20px;
+			height: 20px;
+			content: url('..//img/dots.svg');
+			text-align: center;
+			opacity: .25;
+		}
+		.slick-active button:before {
+			opacity: .75;
+			color: #fff;
+		}
+		
+		
+	}
+}
