@@ -83,7 +83,7 @@ $(document).ready(function() {
 		infinite: true,
 		adaptiveHeight: true,
 		speed: 500,
-		autoplaySpeed: 6000,
+		autoplaySpeed: 3000,
 		prevArrow: '.arrows__arrow--next1',
 		nextArrow: '.arrows__arrow--prev1',
 		responsive: [{
