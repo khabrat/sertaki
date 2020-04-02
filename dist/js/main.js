@@ -6938,8 +6938,7 @@ $(document).ready(function() {
 
 
 	$('.sliders').slick({
-		dots: true,
-		dotsClass: "slider__dots",
+		
 		arrows: true,
 		slidesToShow: 1,
 		autoplay: true,
