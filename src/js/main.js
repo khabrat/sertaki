@@ -2,7 +2,7 @@
 //= lib/popper.js
 
 /// = lib/isotope.js
-
+//= curtains.min.js
 //= bootstrap/util.js
 //= bootstrap/collapse.js
 //= bootstrap/dropdown.js
