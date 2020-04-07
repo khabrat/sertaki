@@ -6863,18 +6863,16 @@ body {
       border-color: #fff;
       background-color: rgba(235, 235, 235, 0.808); }
 
-.header-wrapper {
-  background-color: #e4d8d8; }
-  .header-wrapper .text {
-    margin: 0px 25px 60px; }
-    .header-wrapper .text h1 {
-      font-size: 69px;
-      font-weight: bold;
-      color: #f0ec0c;
-      margin-bottom: 30px; }
-    .header-wrapper .text span {
-      color: #f0ec0c;
-      font-size: 2rem; }
+.header-wrapper .text {
+  margin: 0px 25px 60px; }
+  .header-wrapper .text h1 {
+    font-size: 69px;
+    font-weight: bold;
+    color: #f0ec0c;
+    margin-bottom: 30px; }
+  .header-wrapper .text span {
+    color: #f0ec0c;
+    font-size: 2rem; }
 
 .sliders {
   width: 100%;
@@ -6883,7 +6881,6 @@ body {
 .sliders__slide--1 {
   width: 100%;
   min-height: 80vh;
-  background-image: url(./../img/chir.jpg);
   background-image: url(./../img/chir.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -7062,12 +7059,24 @@ body {
     -o-transition: all .9s ease;
     transition: all .9s ease; }
 
+.foto-fa {
+  max-width: 300px;
+  height: 600px; }
+
+.wrapper-f {
+  padding-left: 10px;
+  font-size: 1.3rem; }
+  .wrapper-f h2 {
+    text-align: center; }
+  .wrapper-f p {
+    text-align: justify; }
+
 .logo-img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 300px;
-  height: 100px;
+  width: 180px;
+  height: 80px;
   margin: 0 auto; }
 
 .social {

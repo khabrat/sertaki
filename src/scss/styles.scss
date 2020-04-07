@@ -93,7 +93,7 @@ body {
 
 .header-wrapper {
     
-    background-color: rgb(228, 216, 216);
+    // background-color: rgb(228, 216, 216);
     // width: 100%;
     // min-height: 100vh;
     // background-image: url(./../img/chir.jpg);
@@ -130,8 +130,7 @@ body {
 .sliders__slide--1 {
     width: 100%;	
     min-height: 80vh;
-    background-image: url(./../img/chir.jpg);
-    background-image: url(./../img/chir.jpg);
+    background-image: url(./../img/chir.jpg);    
     background-repeat: no-repeat;
 	background-position: center center;
     background-size: cover;
@@ -201,16 +200,7 @@ body {
     background-size: cover;
 }
 
-// .sliders {
-//     width: 100%;	
-// 	img {
-// 		width: 100%;
-//         height: auto;
-//         max-height: 90vh;
-// 		overflow: hidden;
-// 		object-fit: fill;
-// 	}
-// }
+
 
 .arrows {
     position: relative;
@@ -301,6 +291,27 @@ body {
         
       }
   }
+//midle
+.foto-fa {
+    max-width: 300px;
+    height: 600px;
+}
+
+
+.wrapper-f {
+    h2 {
+        text-align: center;
+    }
+    p {
+        text-align: justify;
+    }
+    padding-left: 10px;
+    font-size: 1.3rem;
+}
+
+
+
+
 
 
 //   footer
@@ -310,8 +321,8 @@ body {
 }
 .logo-img {
     display: flex;
-    width: 300px;
-    height: 100px;
+    width: 180px;
+    height: 80px;
     margin: 0 auto;
 }
 
