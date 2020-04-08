@@ -7031,34 +7031,6 @@ body {
   transform: rotate(0deg);
   text-shadow: 0px 0px 1px #131313, 0px 0px 1px #070707, 0px 0px 1px black, 0px 0px 1px black; }
 
-.tel {
-  width: 350px; }
-  .tel a {
-    text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    font-size: 1.8rem;
-    line-height: 50px;
-    color: #fff5b2;
-    -webkit-transition: all .5s ease;
-    -o-transition: all .5s ease;
-    transition: all .5s ease;
-    -webkit-transform-origin: left;
-    -ms-transform-origin: left;
-    -o-transform-origin: left;
-    transform-origin: left;
-    -webkit-transform: rotateY(-30deg);
-    transform: rotateY(-30deg);
-    text-shadow: 10px 0px 1px #131313, 10px 0px 1px #070707, 10px 0px 1px black, 10px 0px 1px black;
-    text-decoration: none; }
-  .tel a:hover {
-    -webkit-transform: scale3d(1, 1, 0.9);
-    transform: scale3d(1, 1, 0.9);
-    -webkit-transition: all .9s ease;
-    -o-transition: all .9s ease;
-    transition: all .9s ease; }
-
 .foto-fa {
   max-width: 300px;
   height: 600px; }
@@ -7070,6 +7042,17 @@ body {
     text-align: center; }
   .wrapper-f p {
     text-align: justify; }
+
+.telefon {
+  color: #000;
+  text-decoration: none; }
+
+.telefon:hover {
+  color: #202020;
+  text-decoration: none; }
+
+footer {
+  padding: 50px 0; }
 
 .logo-img {
   display: -webkit-box;
@@ -7094,7 +7077,7 @@ body {
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
   border-radius: 24px;
-  margin: 0 10px 10px 0;
+  margin: 0 5px 0 5px;
   padding: 6px;
   color: #000; }
 
@@ -7116,3 +7099,76 @@ body {
 .odnoklassniki a:hover {
   background: #f93;
   color: #fff; }
+
+.menu {
+  width: 1600px;
+  padding: 70px 0;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.block-menu {
+  width: 440px;
+  text-align: center; }
+
+.block-menu h3 {
+  font-family: 'Yeseva One', cursive;
+  font-size: 36px;
+  font-weight: normal;
+  color: #c90;
+  margin: 0 0 45px; }
+
+.punkt-menu {
+  margin-bottom: 35px; }
+
+.price {
+  border-bottom: 1px solid #c90;
+  color: #c90;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Yeseva One', cursive;
+  font-size: 21px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0;
+  padding-bottom: 7px; }
+
+.info {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #4c4c4c;
+  margin: 0;
+  padding-top: 7px;
+  text-align: left; }
+
+.special {
+  border: 1px solid #c90;
+  padding: 7px;
+  margin-top: 20px;
+  position: relative; }
+
+.special:before {
+  content: "Special";
+  display: block;
+  width: 70px;
+  height: 22px;
+  background: #c90;
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  line-height: 22px;
+  position: absolute;
+  top: -22px;
+  right: -1px; }
+
+.yellow-uzor {
+  width: 247px;
+  height: 28px;
+  background: url(../img/yellow_uzor.png);
+  margin: 25px auto; }

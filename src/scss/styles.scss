@@ -266,31 +266,31 @@ body {
     text-shadow: 0px 0px 1px #131313, 0px 0px 1px #070707, 0px 0px 1px black, 0px 0px 1px black;
   }
 
-  .tel {
-      width:350px;
-      a {
-        text-align: center;
-        display: flex;
-        font-size: 1.8rem;
+//   .tel {
+//       width:350px;
+//       a {
+//         text-align: center;
+//         display: flex;
+//         font-size: 1.8rem;
        
-        line-height: 50px;
-        color: #fff5b2;
-        transition: all .5s ease;
-        transform-origin: left;
-        transform: rotateY(-30deg);
-        text-shadow: 10px 0px 1px #131313, 10px 0px 1px #070707, 10px 0px 1px black, 10px 0px 1px black;
-        text-decoration: none;
+//         line-height: 50px;
+//         color: #fff5b2;
+//         transition: all .5s ease;
+//         transform-origin: left;
+//         transform: rotateY(-30deg);
+//         text-shadow: 10px 0px 1px #131313, 10px 0px 1px #070707, 10px 0px 1px black, 10px 0px 1px black;
+//         text-decoration: none;
         
-      }
-      a:hover {
-        // color: #202020;
-        transform: scale3d(1, 1, 0.9);
-        transition: all .9s ease;
+//       }
+//       a:hover {
+//         // color: #202020;
+//         transform: scale3d(1, 1, 0.9);
+//         transition: all .9s ease;
   
-        // text-shadow: 0px 0px 1px #131313, 0px 0px 1px #070707, 0px 0px 1px black, 0px 0px 1px black;
+//         // text-shadow: 0px 0px 1px #131313, 0px 0px 1px #070707, 0px 0px 1px black, 0px 0px 1px black;
         
-      }
-  }
+//       }
+//   }
 //midle
 .foto-fa {
     max-width: 300px;
@@ -308,13 +308,24 @@ body {
     padding-left: 10px;
     font-size: 1.3rem;
 }
+.telefon {
+    color: #000;
+    text-decoration: none;
+    
+}
 
-
-
+.telefon:hover {
+    color: #202020;    
+    text-decoration: none;    
+  }
 
 
 
 //   footer
+
+footer {
+    padding: 50px 0;
+}
 .logo-footer {
    
     
@@ -340,7 +351,7 @@ body {
     border: 1px solid #ccc;
     box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
     border-radius: 24px;
-    margin: 0 10px 10px 0;
+    margin: 0 5px 0 5px;
     padding: 6px;
     color: #000;
 }
@@ -354,3 +365,73 @@ body {
 .facebook a:hover {background: #3b5998; color: #fff;}
 .vk a:hover {background: #5d84ae; color: #fff;}
 .odnoklassniki a:hover {background: #f93; color: #fff;}
+
+
+//menu
+.menu {
+	width: 1600px;
+	padding:70px 0;
+	margin:0 auto;
+	display:flex;
+	justify-content: center;
+}
+.block-menu {
+	width: 440px;
+	// margin:0 85px;
+	text-align: center;
+}
+.block-menu h3 {
+	font-family: 'Yeseva One', cursive;
+	font-size: 36px;
+	font-weight: normal;
+	color:#c90;
+	margin:0 0 45px;
+}
+.punkt-menu {
+	margin-bottom: 35px;
+}
+.price {
+	border-bottom:1px solid #c90;
+	color:#c90;
+	display:flex;
+	font-family: 'Yeseva One', cursive;
+	font-size: 21px;
+	justify-content: space-between;
+	margin: 0;
+	padding-bottom: 7px;
+}
+.info {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	color:#4c4c4c;
+	margin: 0;
+	padding-top: 7px;
+	text-align: left;
+}
+.special {
+	border:1px solid #c90;
+	padding:7px;
+	margin-top: 20px;
+	position: relative;
+}
+.special:before {
+	content: "Special";
+	display: block;
+	width: 70px;
+	height: 22px;
+	background: #c90;
+	color:#fff;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	line-height: 22px;
+	position: absolute;
+	top:-22px;
+	right:-1px;
+}
+.yellow-uzor
+{
+	width: 247px;
+	height: 28px;
+	background: url(../img/yellow_uzor.png);
+	margin: 25px auto;
+}
