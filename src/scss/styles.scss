@@ -324,7 +324,7 @@ body {
 //   footer
 
 footer {
-    padding: 50px 0;
+    padding: 5px 0;
 }
 .logo-footer {
    
@@ -368,6 +368,32 @@ footer {
 
 
 //menu
+.wrap-menu {
+  background-image: url(../img/fon1.jpg);
+  background-repeat: no-repeat;
+	background-position: center center;
+    background-size: cover;
+}
+.wrap-menu2 {
+  background-image: url(../img/fon2.jpg);
+  background-repeat: no-repeat;
+	background-position: center center;
+    background-size: cover;
+}
+.wrap-menu3 {
+  background-image: url(../img/fon3.png);
+  background-repeat: no-repeat;
+	background-position: center center;
+    background-size: cover;
+}
+.wrap-menu4 {
+  background-image: url(../img/foncofe.jpg);
+  background-repeat: no-repeat;
+	background-position: center center;
+    background-size: cover;
+}
+
+
 .menu {
 	width: 1600px;
 	padding:70px 0;
