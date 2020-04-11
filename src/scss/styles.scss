@@ -369,13 +369,13 @@ footer {
 
 //menu
 .wrap-menu {
-  background-image: url(../img/fon1.jpg);
+  background-image: url(../img/fon2.jpg);
   background-repeat: no-repeat;
 	background-position: center center;
     background-size: cover;
 }
 .wrap-menu2 {
-  background-image: url(../img/lg3.jpg);
+  background-image: url(../img/lg3.png);
   background-repeat: no-repeat;
 	background-position: center center;
     background-size: cover;
@@ -389,7 +389,7 @@ footer {
 .wrap-menu4 {
   background-image: url(../img/lg.jpg);
   background-repeat: no-repeat;
-	background-position: center center;
+	// background-position: center;
     background-size: cover;
 }
 
@@ -581,15 +581,13 @@ h1 {
     }
     
     // Background images
-    li:nth-child(1) { background-image:url('http://michael-ferry.com/assets/accordion1.jpg'); }
-    li:nth-child(2) { background-image:url('http://michael-ferry.com/assets/accordion2.jpg'); }
-    li:nth-child(3) { background-image:url('http://michael-ferry.com/assets/accordion3.jpg'); }
-    li:nth-child(4) { background-image:url('http://michael-ferry.com/assets/accordion4.jpg'); }
-    li:nth-child(5) { background-image:url('http://michael-ferry.com/assets/accordion5.jpg'); }
-    li:nth-child(6) { background-image:url('http://michael-ferry.com/assets/accordion6.jpg'); }
+    li:nth-child(1) { background-image:url('../img/salat.jpg'); }
+    li:nth-child(2) { background-image:url('../img/salatmalat.jpg'); }
+    li:nth-child(3) { background-image:url('../img/fish.jpg'); }
+    
 
     &:hover li,
-    &:focus-within li { width:8%; }
+    &:focus-within li { width:18%; }
     
     li:focus {
       outline: none;
