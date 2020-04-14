@@ -480,12 +480,14 @@ border-image-slice: 1;
   position: relative;
   transition: all 1s ease;
   margin: 2px;
+  
 }
 .animate4:hover{
   box-shadow: 1px 1px 2px #fff, 1px 1px 2px rgba(158,111,86,0.3) inset;
  border-radius: 4px;
   z-index: 2;
   transform: scale(1.3); /* эффект трансформации для других браузеров */
+  
 }
 
 .menu-span {
@@ -495,10 +497,12 @@ border-image-slice: 1;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
-    color: rgba(0, 0, 0, 0.9);
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
+
+
 
 
