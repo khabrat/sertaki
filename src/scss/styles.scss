@@ -378,7 +378,7 @@ footer {
   background-image: url(../img/lg3.png);
   background-repeat: no-repeat;
 	background-position: center center;
-    background-size: cover;
+  background-size: cover;
 }
 .wrap-menu3 {
   background-image: url(../img/lg1.jpg);
@@ -461,6 +461,13 @@ footer {
 	background: url(../img/yellow_uzor.png);
 	margin: 25px auto;
 }
+.white-uzor
+{
+	width: 247px;
+	height: 28px;
+	background: url(../img/white-uzor.png);
+	margin: 25px auto;
+}
 
 
 
@@ -472,11 +479,10 @@ footer {
              
 .animate4{
 
-  border: 10px solid transparent;
-  // border: 1px solid rgba(245, 177, 6, 1.0);
-border-image: linear-gradient(  rgba(245, 177, 6, 1.0) 100%);
+border: 10px solid transparent;
+border-image: linear-gradient(  rgb(206, 204, 199) 100%);
 border-image-slice: 1;
-  box-shadow: 1px 1px 2px #fff, 1px 1px 2px rgba(158,111,86,0.3) inset;
+  // box-shadow: 1px 1px 2px #fff, 1px 1px 2px rgba(158,111,86,0.3) inset;
  border-radius: 4px;
   position: relative;
   transition: all 1s ease;
@@ -484,7 +490,7 @@ border-image-slice: 1;
   
 }
 .animate4:hover{
-  box-shadow: 1px 1px 2px #fff, 1px 1px 2px rgba(158,111,86,0.3) inset;
+  // box-shadow: 1px 1px 2px #fff, 1px 1px 2px rgba(158,111,86,0.3) inset;
  border-radius: 4px;
   z-index: 2;
   transform: scale(1.3); /* эффект трансформации для других браузеров */
@@ -505,7 +511,12 @@ border-image-slice: 1;
 }
 
 .wrap-nenuall {
- padding: 100px;
+ padding-bottom: 300px;
+}
+.head-h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+
 }
 
 
