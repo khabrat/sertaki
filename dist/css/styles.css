@@ -7199,9 +7199,9 @@ footer {
 
 .animate4 {
   border: 10px solid transparent;
-  -o-border-image: -o-linear-gradient(rgba(168, 161, 140, 0.589) 100%);
-  border-image: -webkit-gradient(linear, left top, left bottom, to(rgba(168, 161, 140, 0.589)));
-  border-image: linear-gradient(rgba(168, 161, 140, 0.589) 100%);
+  -o-border-image: -o-linear-gradient(#f5b106 100%);
+  border-image: -webkit-gradient(linear, left top, left bottom, to(#f5b106));
+  border-image: linear-gradient(#f5b106 100%);
   border-image-slice: 1;
   -webkit-box-shadow: 1px 1px 2px #fff, 1px 1px 2px rgba(158, 111, 86, 0.3) inset;
   box-shadow: 1px 1px 2px #fff, 1px 1px 2px rgba(158, 111, 86, 0.3) inset;
@@ -7237,3 +7237,6 @@ footer {
   text-align: center;
   color: white;
   font-weight: bold; }
+
+.wrap-nenuall {
+  padding: 100px; }

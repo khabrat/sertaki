@@ -473,7 +473,8 @@ footer {
 .animate4{
 
   border: 10px solid transparent;
-border-image: linear-gradient( rgba(168, 161, 140, 0.589) 100%);
+  // border: 1px solid rgba(245, 177, 6, 1.0);
+border-image: linear-gradient(  rgba(245, 177, 6, 1.0) 100%);
 border-image-slice: 1;
   box-shadow: 1px 1px 2px #fff, 1px 1px 2px rgba(158,111,86,0.3) inset;
  border-radius: 4px;
@@ -501,6 +502,10 @@ border-image-slice: 1;
     text-align: center;
     color: rgb(255, 255, 255);
     font-weight: bold;
+}
+
+.wrap-nenuall {
+ padding: 100px;
 }
 
 
