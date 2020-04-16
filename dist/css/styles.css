@@ -7140,7 +7140,6 @@ footer {
   text-align: left; }
 
 .price-h {
-  font-family: 'Yeseva One', cursive;
   font-size: 36px;
   font-weight: normal;
   color: #c90;
@@ -7155,7 +7154,6 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: 'Yeseva One', cursive;
   font-size: 21px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
