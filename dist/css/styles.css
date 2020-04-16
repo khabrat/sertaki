@@ -7126,7 +7126,7 @@ footer {
 
 .menu {
   width: 1600px;
-  padding: 70px 0;
+  padding: 20px 0;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7137,9 +7137,9 @@ footer {
 
 .block-menu {
   width: 440px;
-  text-align: center; }
+  text-align: left; }
 
-.block-menu h3 {
+.price-h {
   font-family: 'Yeseva One', cursive;
   font-size: 36px;
   font-weight: normal;
